@@ -6,13 +6,13 @@ Pascal's Triangle
 
 def pascal_triangle(n):
     '''
-    func: pascal_triangle
+    function: pascal_triangle
         returns a list of lists of integers
         representing the Pascal’s triangle of n
-    args:
+    arguments:
         <int: n> : number of rows (> 0)
-    return:
-        <list <of list>>
+    return value:
+        <list [of list]>
     '''
     if type(n) is not int and n < 0:
         return ([])
